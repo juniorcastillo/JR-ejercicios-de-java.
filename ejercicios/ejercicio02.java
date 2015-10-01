@@ -20,8 +20,8 @@ public class ejercicio02 {
   String blanco = "\033[37m";
 
   System.out.println(verde + "junior");
-  System.out.println(naranja + "telefono 8092382341");
-  System.out.println(rojo + "Calle goyesca");
+  System.out.println(naranja + "telefono 8092382356");
+  System.out.println(rojo + "Calle pimente");
   
  }
  
