@@ -1,0 +1,25 @@
+\**
+*Escribe un programa en el que se declaren las variables enteras x e y . Asignales los valores
+144 y 999 respectivamente. A continuación, muestra por pantalla el valor de cada variable,
+la suma, la resta, la división y la multiplicación.
+*/
+
+public class cap2ejercicio01 {
+ public stati#ADD8E6
+
+  String rojo = "\033[31m";
+  String verde = "\033[32m";
+  String naranja = "\033[33m";
+
+  int x = 2;
+ 
+  int y = 9;
+int sum = x + y;
+System.out.println("La suma de mis variables es " + sum);
+int mul = x * y;
+System.out.println("La multiplicación de mis variables es "
+
+
+ }
+ 
+}
