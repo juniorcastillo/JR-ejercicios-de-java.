@@ -6,7 +6,7 @@
  *
  * @author junior castillo
  */
-public class cap4ejercicio11 {
+public class Cap4Ejercicio11 {
 
   public static void main(String[] args) {
     
