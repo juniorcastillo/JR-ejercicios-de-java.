@@ -16,12 +16,15 @@ public class Cap4Ejercicio7 {
 
     System.out.println("Este programa calcula la media de tres notas");
     System.out.println("Por favor, introduzcala primera nota  : ");
-     Double primera = Double.parseDouble(System.console().readLine());
+     double primera = Double.parseDouble(System.console().readLine());
+    
     System.out.println("Por favor, introduzcala segunda nota  : ");
-     Double segunda = Double.parseDouble(System.console().readLine());
+     double segunda = Double.parseDouble(System.console().readLine());
+    
     System.out.println("Por favor, introduzcala tercera nota  : ");
-     Double tercera = Double.parseDouble(System.console().readLine());
+     double tercera = Double.parseDouble(System.console().readLine());
+     
      double resultado = ((primera + segunda + tercera) /3 );
-     System.out.printf(" La media de esta tres notas es: " + resultado);
+     System.out.printf("La media de esta tres notas es: " + resultado);
   }
 }
