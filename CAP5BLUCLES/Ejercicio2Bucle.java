@@ -7,8 +7,8 @@ public class Ejercicio2Bucle {
        int j=0;
        
       while (j < 100) {
-        System.out.println(j);
-        j+=5;
+        System.out.println(j+=5);
+      
       }
   }
 }

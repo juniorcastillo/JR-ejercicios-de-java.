@@ -6,9 +6,9 @@ public class Ejercicio1Bucle {
   public static void main(String[] args) {
       
        
-      for ( int j=0;j < 100;j+=5) {
+      for ( int j=0;j <= 100;j+=5) {
         System.out.println(j);
-        
+        // la variable de for no se debe cambiar puede ocasionar errores.
       }
   }
 }

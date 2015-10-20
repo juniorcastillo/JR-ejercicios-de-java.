@@ -11,7 +11,7 @@ public class Ejercicio8Bucle {
        int numero;
        int producto;
        
-        System.out.println("instrodusca el numero para multiplicar: ");
+        System.out.print("instrodusca el numero para multiplicar: ");
         numero =Integer.parseInt(System.console().readLine()); 
        
        //+++++++++++++++++++++++++
