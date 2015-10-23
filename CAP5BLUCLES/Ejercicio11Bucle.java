@@ -9,7 +9,8 @@ public class Ejercicio11Bucle {
       
     System.out.print("Introduzca un número: ");
     int numeroIntroducido = Integer.parseInt(System.console().readLine());
-
+        System.out.println("   n      n²       n³     "); 
+         System.out.println("------------------------------");
     for (int i = numeroIntroducido; i < numeroIntroducido + 5; i++) {
       System.out.printf("%4d %6d %8d\n", i, i * i, i * i * i);
       

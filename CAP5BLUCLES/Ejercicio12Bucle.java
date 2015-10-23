@@ -11,22 +11,19 @@ public class Ejercicio12Bucle {
        int SegundoNumero;
        int Termino=0;
         
-      System.out.print("Introduzca un número: ");
-      
-      SegundoNumero = Integer.parseInt(System.console().readLine());
-       System.out.println(" Este es el numero que comienza: " + PrimerNumero);
-        System.out.println(" Este es el numero introducido: " + SegundoNumero);
+            System.out.print("Introduzca un número: ");
+            
+            SegundoNumero = Integer.parseInt(System.console().readLine());
+             System.out.println(" Este es el numero que comienza: " + PrimerNumero);
+              System.out.println(" Este es el numero introducido: " + SegundoNumero);
       do {
         
-         System.out.println(" " + Termino); 
-       
-       Termino = PrimerNumero + SegundoNumero ;
-       PrimerNumero = SegundoNumero;
-       SegundoNumero = Termino;
-        
-  
-          
-        
+               System.out.println(" " + Termino); 
+             
+             Termino = PrimerNumero + SegundoNumero ;
+             PrimerNumero = SegundoNumero;
+             SegundoNumero = Termino;
+              
        }
           while ( Termino < 100);
       
