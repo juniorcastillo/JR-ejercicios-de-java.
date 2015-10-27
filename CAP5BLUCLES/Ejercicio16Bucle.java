@@ -11,7 +11,7 @@ public class Ejercicio16Bucle {
             
     System.out.print("Introduzca un número entero y le diré si es primo: ");
     int numeroIntroducido = Integer.parseInt(System.console().readLine());
-
+    //boolean se utuliza para una variable logica  , solo tiene dos valores que es verdadero y falso.
     boolean esPrimo = true;
     
     for (int i = 2; i < numeroIntroducido; i++) {

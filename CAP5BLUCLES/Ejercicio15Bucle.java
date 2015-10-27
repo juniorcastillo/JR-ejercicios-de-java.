@@ -18,15 +18,14 @@ public class Ejercicio15Bucle {
       int Exponente = 0;
       int repetir=1;
 
-       System.out.print("Introduzca la base: ");
-       
+    System.out.print("Introduzca la base: ");
      Base = Integer.parseInt(System.console().readLine());
     
     System.out.print("Introduzca exponente: ");
       Exponente = Integer.parseInt(System.console().readLine());
     
      while ( Exponente >= repetir ) {
-          //System.out.printf("%d elevado a %d\n" ,  Base , repetir);  
+         // el contador "repetir" es la potencia que se eleva¹
           System.out.println(  Base + " elevado a " + repetir + "^");  
 
        repetir++;

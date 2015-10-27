@@ -8,21 +8,22 @@ número positivo).
 public class Ejercicio17Bucle {
   public static void main(String[] args) {
        
-  int NumeroIntro=0;
-  int Suma =0;
- 
+  int numeroIntro=1;
+  int contador;
+  int suma =0;
+  
     
             
     System.out.print(" por favor, Introduzca un numero positivo: ");
-     NumeroIntro = Integer.parseInt(System.console().readLine());
-     
+     numeroIntro = Integer.parseInt(System.console().readLine());
+     contador = numeroIntro+1;
     
    do{
-        
-        System.out.print("  " + Suma );
-       Suma = Suma + NumeroIntro ;
+        suma+=contador;
+        contador++;
+      
        
-   }while ((NumeroIntro >= 0) && ( Suma <= 100));
-    
+   }while (contador <= 100);
+      System.out.print("el total es: " + suma);
   }
 }
