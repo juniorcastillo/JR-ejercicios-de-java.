@@ -9,19 +9,25 @@ cuántos números se han generado.
 public class EjercicioAleatorio9 {
     
   public static void main(String[] args) {
-    int suma=0;
-    
-    System.out.println("tira tres dados y suma su resultado:");
-   
-    for (int i = 1; i <= 3; i++) {
-      
-     int lazamientos = (int)(Math.random()*6 + 1);
-       System.out.print(lazamientos + "  ");
-       
-      suma += lazamientos;
-    }
 
-    System.out.println("Este es el total : "+suma);
-     
-  }
+   int contador =0;
+   int cancelar= 1;
+    System.out.println("Genera numeros aleatorios pares entre 0-100:");
+   
+    do {
+        int  numero = (int)(Math.random()*101);
+      if (numero%2 == 0){
+        contador++;
+         
+        System.out.print(numero+" ");
+        if  ( numero  == 24){
+             cancelar=100;
+             
+        }
+      }
+        
+        
+    }while (cancelar < 100);
+       System.out.println("\n Los numeros generados son: " + contador);
+  } 
 }
