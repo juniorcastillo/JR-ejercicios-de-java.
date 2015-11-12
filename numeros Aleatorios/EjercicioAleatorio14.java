@@ -1,28 +1,29 @@
 /**
 
-* Escribe un programa que piense un número al azar entre 0 y 100. El usuario debe adivinarlo
-   y tiene para ello 5 oportunidades. Después de cada intento fallido, el programa dirá cuántas
-   oportunidades quedan y si el número introducido es menor o mayor que el número secreto.
+* Realiza un programa que haga justo lo contrario a lo que hace el ejercicio 6. El programa
+intentará adivinar el número que estás pensando - un número entre 0 y 100 - teniendo para
+ello 5 oportunidades. En cada intento fallido, el programa debe preguntar si el número que
+estás pensando es mayor o menor que el que te acaba de decir.
 
 *  junior castillo
 **/
 
-public class EjercicioAleatorio6 {
+public class EjercicioAleatorio14 {
     
   public static void main(String[] args) {
   
-    int alturapiramide=8;
+    
     int numSecreto=0;
     int numIntro;
     int oportunidades;
-          
+        
     numSecreto = (int)(Math.random()* 101);
     
     for( oportunidades = 5; oportunidades > 0; oportunidades--) {
       
       
-     
-      System.out.println("adivina cual es el numero: " );
+      switch(4)
+      System.out.println(" el numero es mayor que el q: " );
       numIntro = Integer.parseInt(System.console().readLine());
    
       if ( numIntro == numSecreto) {

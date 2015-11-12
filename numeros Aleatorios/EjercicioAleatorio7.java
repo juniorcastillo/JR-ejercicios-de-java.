@@ -8,7 +8,7 @@ partidos y el pleno al quince (15 filas).
 public class EjercicioAleatorio7 {
   public static void main(String[] args) {
        
-
+      
      for (int equipo =1; equipo <=14;equipo++ ){
        
         System.out.print("\n" + equipo +". |" );
@@ -19,10 +19,10 @@ public class EjercicioAleatorio7 {
           switch (resultado) {
       
              case 1:
-               System.out.print( " 1 " + "|" );
+               System.out.print( "1  " + "|" );
                break;
              case 2:
-               System.out.print(" 2 " + "|");
+               System.out.print("  2" + "|");
                break;
              case 3:
                System.out.print ( " x " + "|" );
