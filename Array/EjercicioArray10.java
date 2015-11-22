@@ -14,32 +14,44 @@ public class  EjercicioArray10{
       
       int[] num = new int[20];
       int i;
+       int[] par = new int[20];
+       int[] impar =new int [20];
+      int pares=0;
+      int impares=0;
        
    
-  
-    for ( i = 0; i < 20 ; i++) {
+    System.out.println("Muestra 20 numeros aleatorios");
+    for ( i = 0; i < 20; i++) {
      
        num[i]= (int)(Math.random()* 100); 
-     
-    }
-     System.out.println();
-    for ( i=0; i < 20; i++) {
+       System.out.print(num[i] + " ");  
+        System.out.println(); 
       
      if( num[i] %2 == 0){
-        System.out.printf("%4d par" , num[i]);
-        System.out.println( );
-      }else {
-        System.out.printf("%4d impar" , num[i]);
-        System.out.println( );
-       }
+      par[pares++] =num[i];
+        
+     }else {
+        impar[impares++]=num[i];
+      }
       
-
+       
+    }
+      System.out.println();  
+    for (i=0; i < pares; i++){
+        
+        num[i]=par[i];
     }
       
-      
+    for (i = pares; i < 20; i++) {
+      num[i] = impar[i - pares];
+    }
     
+    for (i= 0; i < 20; i++ ){
+       
+       System.out.print(num[i]+" ");  
+       
     
-    
+    }
     
   }
 }
