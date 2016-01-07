@@ -20,8 +20,9 @@ public class  EjercicioArray12{
     int nInicial;
     int nFinal;
     boolean valido;
+    int contador;
     
-    System.out.println("Introduzca 10 números separados por INTRO:");
+    System.out.println("Introduzca 10 números separados por teclado: ");
 
     for (i = 0; i < 10; i++) {
       n[i] = Integer.parseInt(System.console().readLine());
@@ -88,14 +89,14 @@ public class  EjercicioArray12{
     
     for (i = nFinal + 1; i < 10; i++)
       resultado[i] = n[i - 1];
-    
+       contador= nFinal;
     resultado[0] = n[9];
     
     for (i = 0; i < nInicial; i++)
       resultado[i + 1] = n[i];
     
     // Muestra el resultado.
-    System.out.println("\nArray resultante:");
+
     System.out.println("\n┌────────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐");
     System.out.print("│ Índice ");
     for (i = 0; i < 10; i++) {
@@ -106,6 +107,7 @@ public class  EjercicioArray12{
     for (i = 0; i < 10; i++) {
       System.out.printf("│%4d ", resultado[i]);
     }
-    System.out.println("│\n└────────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘");  
+    System.out.println("│\n└────────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘"); 
+    System.out.println("Introduzca 10 números separados por teclado:" + contador); 
   }
 }

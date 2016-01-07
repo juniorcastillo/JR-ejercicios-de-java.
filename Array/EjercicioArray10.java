@@ -47,11 +47,16 @@ public class  EjercicioArray10{
     }
     
     for (i= 0; i < 20; i++ ){
+      
+        System.out.print(i + " " );  
+                
+ }
+         System.out.println();  
+    for (i= 0; i < 20; i++ ){
+        System.out.print( num[i] + " ");  
        
-       System.out.print(num[i]+" ");  
-       
-    
     }
+   
     
   }
 }

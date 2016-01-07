@@ -19,18 +19,18 @@ public class EjercicioArray7 {
     for ( i=0; i < 100;i++){
       
        n[i]= (int)(Math.random()* 21);
-       System.out.printf( "%4d" , n[i] );
+       System.out.printf( n[i] + " ");
     }
       System.out.println( );
-      System.out.println( "introduce un  numero que este : " );
+      System.out.println( "introduce un  numero que desea cambiar : " );
       primero = Integer.parseInt(System.console().readLine());
       System.out.println( "introduce el numero sustituto: " );     
       segundo = Integer.parseInt(System.console().readLine());
-    
+     // sustituye el valor primero por el segundo
     for ( i=0; i < 100;i++){
       if( n[i]==primero){
         n[i]=segundo;
-        System.out.print( "'" + n[i] +"'");
+        System.out.print( "\"" + n[i] +"\"");
 
       }else {
        System.out.print( n[i]+ " ");

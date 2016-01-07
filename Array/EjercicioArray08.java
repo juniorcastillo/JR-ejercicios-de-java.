@@ -10,13 +10,14 @@ carácter.
 public class  EjercicioArray08{
   public static void main(String[] args) {
   
-           String[] mes = {
+           
+    String[] mes = {
       "enero", "febrero", "marzo", "abril", "mayo", "junio",
       "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"};
       
       
       int[] T = new int[12];
-       int i;
+      int i;
     
     
     
@@ -28,13 +29,13 @@ public class  EjercicioArray08{
            System.out.println();
     for ( i=0; i < 12; i++) {
        System.out.printf("%10s" ,mes[i]);
-      System.out.printf( "%8s" ,"|");
+       System.out.printf( "%8s" ,"|");
     
         for ( int P=1; P <= T[i]; P++) {
          System.out.print( "*");
         }
         System.out.print( T[i]+ "ºc");
-          System.out.println();
+        System.out.println();
     }
     
     
