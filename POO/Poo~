@@ -1,0 +1,168 @@
+¿Cuáles serían los atributos de la clase PilotoDeFormula1 ? ¿Se te ocurren algunas
+instancias de esta clase?
+----------------------------------------------------------------------------------------------
+
+
+
+Atributos-->
+
+*nombre
+*sexo
+*peso
+*experiencia
+*victorias
+
+instancia-->
+* ferAlonso
+
+
+
+
+A continuación tienes una lista en la que están mezcladas varias clases con
+instancias de esas clases. Para ponerlo un poco más difícil, todos los elementos
+están escritos en minúscula. Di cuáles son las clases, cuáles las instancias,
+a qué clase pertenece cada una de estas instancias y cuál es la jerarquía
+entre las clases: paula, goofy, gardfiel, perro, mineral, caballo, tom, silvestre,
+pirita, rocinante, milu, snoopy, gato, pluto, Animal, javier, bucefalo, pegaso,
+ayudante_de_santa_claus, cuarzo, laika, persona, pato_lucas.
+---------------------------------------------------------------------------------------
+
+Class: Animal----: 
+Subclase: Perro->
+instancia: goofy ,snoopy,pluto,ayudante_de_santa_claus
+
+Subclase: Gato->
+instancia:tom,gardfiel,silvestre,
+
+Subclase: Caballo->
+instancia:pegaso
+
+Subclase: Pato->
+instancia: pato_lucas
+
+
+Class:mineral-->
+instancia:pirita, rocinante,bucefalo,cuarzo,laika
+
+Class:persona-->
+instancia:paula,javier
+---------------------------------------------------------------------------------------
+3-¿Cuáles serían los atributos de la clase Vivienda ? ¿Qué subclases se te ocurren?
+------------------------------------------------------------------------------------------
+
+class:Vivienda
+atributos-->
+metros
+superficie
+baños
+cocina
+habitaciones
+
+subClass:casa
+
+
+subClass:piso
+
+subClass:apartamento
+
+subClass:mansion
+
+-------------------------------------------------------------------------------
+4-Piensa en la liga de baloncesto, ¿qué 5 clases se te ocurren para representar
+5 elementos distintos que intervengan en la liga?
+-----------------------------------------------------------------------------------------
+
+class-->equipo
+
+
+
+class-->Cancha
+
+
+
+class-->jugador
+
+
+
+class-->Partido
+
+
+
+Class-->Categoria
+
+-------------------------------------------------------------------------------
+5-Haz una lista con los atributos que podría tener la clase caballo. A continuación
+haz una lista con los posibles métodos (acciones asociadas a los caballos).
+--------------------------------------------------------------------------------------
+Class--> Caballo
+Atributos->nombre, tipo, pelo,tamaño, peso,herrado,raza
+Metodos->salta, corre , pasofino, rumian  , duermen 
+
+
+
+-------------------------------------------------------------------------------
+6-Lista los atributos de la clase Alumno ¿Sería nombre uno de los atributos de la
+clase? Razona tu respuesta.
+--------------------------------------------------------------------------------
+
+Class-->Alumno
+Atributos->nombre,curso_asignado,sexo, tamaño , edad
+----------------------------------------------------------------------------------------------------------------
+Respuesta-->
+ si nombre seria un atributo porque cada clase alumno tiene un nombre , que a la vez tiene una instancia pedro
+----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+-------------------------------------------------------------------------------------------------
+7-¿Cuáles serían los atributos de la clase Ventana (de ordenador)? ¿cuáles serían
+los métodos? Piensa en las propiedades y en el comportamiento de una ventana de cualquier programa.
+------------------------------------------------------------------------------------------------------
+
+Class-->Ventana(del ordenador)
+
+Atributos-> navegador, herramientas, configuracion, tamaño
+
+metodos->abrir, cerrar , descargar 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

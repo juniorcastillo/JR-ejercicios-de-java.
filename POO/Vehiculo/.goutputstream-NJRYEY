@@ -1,0 +1,19 @@
+/**
+ * PruebaVehiculo.java
+ * Programa que prueba la clase Vehiculo
+ * @author Junior castillo
+ */
+
+public class PruebaVehiculo {
+  public static void main(String[] args) {
+    
+    Vehiculo c1 = new  Vehiculo(200);
+    
+    
+     
+    
+   
+ 
+
+  }
+}
