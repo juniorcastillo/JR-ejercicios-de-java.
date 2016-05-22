@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-may-2016, 9:56:46
+    Author     : USER
+*/
+
+    body{
+           background-color:#0b2130;
+       }
+       .letra{
+           font-size: 100px;
+           text-align: center;
+       }
+       table{
+           border: 0px solid activecaption;
+           
+       }
+       th{background-color:#b9c5dd;}
+       tbody{
+           background-color:#e8e8e8;
+       }
+
+  .modificar {
+  background: #11d989;
+  background-image: -webkit-linear-gradient(top, #11d989, #6bb82c);
+  background-image: -moz-linear-gradient(top, #11d989, #6bb82c);
+  background-image: -ms-linear-gradient(top, #11d989, #6bb82c);
+  background-image: -o-linear-gradient(top, #11d989, #6bb82c);
+  background-image: linear-gradient(to bottom, #11d989, #6bb82c);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 4px 1px 3px #de1d74;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 10px 10px 7px 12px;
+  text-decoration: none;
+}
+
+.modificar:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.borra {
+  background: #d91111;
+  background-image: -webkit-linear-gradient(top, #d91111, #b82c2c);
+  background-image: -moz-linear-gradient(top, #d91111, #b82c2c);
+  background-image: -ms-linear-gradient(top, #d91111, #b82c2c);
+  background-image: -o-linear-gradient(top, #d91111, #b82c2c);
+  background-image: linear-gradient(to bottom, #d91111, #b82c2c);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 4px 1px 3px #de1d74;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 10px 10px 7px 12px;
+  text-decoration: none;
+}
+
+.borra:hover {
+  background: #594040;
+  background-image: -webkit-linear-gradient(top, #594040, #7d0707);
+  background-image: -moz-linear-gradient(top, #594040, #7d0707);
+  background-image: -ms-linear-gradient(top, #594040, #7d0707);
+  background-image: -o-linear-gradient(top, #594040, #7d0707);
+  background-image: linear-gradient(to bottom, #594040, #7d0707);
+  text-decoration: none;
+}
+.añade {
+  background: #d9d911;
+  background-image: -webkit-linear-gradient(top, #d9d911, #a8b82c);
+  background-image: -moz-linear-gradient(top, #d9d911, #a8b82c);
+  background-image: -ms-linear-gradient(top, #d9d911, #a8b82c);
+  background-image: -o-linear-gradient(top, #d9d911, #a8b82c);
+  background-image: linear-gradient(to bottom, #d9d911, #a8b82c);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 4px 1px 3px #de1f1f;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 10px 60px 12px 60px;
+  text-decoration: none;
+}
+
+.añade:hover {
+  background: #f2661b;
+  background-image: -webkit-linear-gradient(top, #f2661b, #e67919);
+  background-image: -moz-linear-gradient(top, #f2661b, #e67919);
+  background-image: -ms-linear-gradient(top, #f2661b, #e67919);
+  background-image: -o-linear-gradient(top, #f2661b, #e67919);
+  background-image: linear-gradient(to bottom, #f2661b, #e67919);
+  text-decoration: none;
+}
