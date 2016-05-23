@@ -3,12 +3,12 @@ package org.apache.jsp;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
-import java.sql.ResultSet;
 import java.sql.Statement;
+import java.sql.ResultSet;
 import java.sql.DriverManager;
 import java.sql.Connection;
 
-public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class Select_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -52,46 +52,53 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("\n");
       out.write("\n");
-      out.write("\n");
       out.write("<!DOCTYPE html>\n");
       out.write("<html>\n");
       out.write("    <head>\n");
-      out.write("        \n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
+      out.write("        <title>JSP Page</title>\n");
+      out.write("    </head>\n");
+      out.write("    <body>\n");
+      out.write("        ");
+
+
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital", "root", "");
+            Statement s = conexion.createStatement();
+
+            ResultSet listaMedico = s.executeQuery("select * from medico"); // La consulta 
+
+            ResultSet listado = s.executeQuery("SELECT * FROM Paciente");
+        
       out.write("\n");
-      out.write("        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\n");
-      out.write(" <link href=\"css/principal.css\" rel=\"stylesheet\">\n");
-      out.write("        </head>\n");
-      out.write("        <body>\n");
-      out.write("            <div class=\"container\">\n");
-      out.write("           \n");
+      out.write("        <form >\n");
+      out.write("            <select name=\"medicos\">\n");
+      out.write("                ");
+
+                    //Hago la consulta de productos.
+                    String consultaproductos;
+                    consultaproductos = "select * from medico ;";
+                    //La ejecuto. 
+                    ResultSet rsproductos = s.executeQuery(consultaproductos);
+                    //Hago un while para ir rellenando el select.
+                    while (rsproductos.next()) {
+                
       out.write("\n");
-      out.write("               \n");
-      out.write("                <form id=\"signup\" method=\"post\" action=\"compruebo_Acceso.jsp\">\n");
-      out.write("                    <div class=\"header\">\n");
-      out.write("                        <h3>Iniciar sesion</h3>\n");
-      out.write("                    </div>\n");
-      out.write("                    <div class=\"sep\"></div>\n");
-      out.write("                    <div class=\"inputs\">\n");
       out.write("\n");
-      out.write("                        <input type=\"email\" name=\"usuario\" placeholder=\"Email\" autofocus />\n");
+      out.write("                <option value=\"");
+      out.print(rsproductos.getString("codMedico"));
+      out.write("\">  ");
+      out.print(rsproductos.getString("nomMedico"));
+      out.write("</option>                 \n");
+      out.write("                ");
+
+                    }
+                
       out.write("\n");
-      out.write("                        <input type=\"password\" name=\"clave\" placeholder=\"contraseña\" />\n");
-      out.write("\n");
-      out.write("                        <div class=\"checkboxy\">\n");
-      out.write("                            <input name=\"cecky\" id=\"checky\" value=\"1\" type=\"checkbox\" /><label class=\"terms\">Guardar cuenta</label>\n");
-      out.write("                        </div>\n");
-      out.write("                        <button type=\"submit\" class=\"btn\">Destacado</button>\n");
-      out.write("                    </div>\n");
-      out.write("\n");
-      out.write("                </form>\n");
-      out.write("            \n");
-      out.write("\n");
-      out.write("         \n");
-      out.write("            </div>\n");
-      out.write("\n");
-      out.write("        </body>\n");
-      out.write("    </html>");
+      out.write("            </select>\n");
+      out.write("        </form>\n");
+      out.write("    </body>\n");
+      out.write("</html>\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;
@@ -104,4 +111,4 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspxFactory.releasePageContext(_jspx_page_context);
     }
   }
-}
+}

@@ -261,21 +261,4 @@ public final class lista_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("            <div >&copy; Junior castillo</div>\n");
       out.write("        </div>\n");
-      out.write("        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->\n");
-      out.write("        <script src=\"js/jquery.min.js\"></script>\n");
-      out.write("        <script src=\"js/bootstrap.min.js\"></script>\n");
-      out.write("    </body>\n");
-      out.write("</html>");
-    } catch (Throwable t) {
-      if (!(t instanceof SkipPageException)){
-        out = _jspx_out;
-        if (out != null && out.getBufferSize() != 0)
-          out.clearBuffer();
-        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
-        else throw new ServletException(t);
-      }
-    } finally {
-      _jspxFactory.releasePageContext(_jspx_page_context);
-    }
-  }
-}
+  
