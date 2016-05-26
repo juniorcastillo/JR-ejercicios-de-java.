@@ -17,13 +17,14 @@
          <style>
             
 
-    body {font-family:arial;font-size:11;font-weight:bold} 
+ 
     td {font-family:arial;font-size:11;font-weight:bold} 
             body{
-                background-color: #b9c5dd;
+                font-family:arial;font-size:11;font-weight:bold;
+                    background-image: url(http://4.bp.blogspot.com/-cg0Olv-iKVg/ViYvphKlXbI/AAAAAAABwNc/fie4fE6ICb8/s1600/002.jpg);
             }
             table{
-                 margin-left:39%;
+                 margin-left:36%;
             }
             th,td{
                
