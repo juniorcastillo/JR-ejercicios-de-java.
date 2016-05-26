@@ -67,7 +67,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("           \n");
       out.write("\n");
       out.write("               \n");
-      out.write("                <form id=\"signup\" method=\"post\" action=\"compruebo_Acceso.jsp\">\n");
+      out.write("                <form id=\"signup\" method=\"post\" action=\"comprueboAcceso.jsp\">\n");
       out.write("                    <div class=\"header\">\n");
       out.write("                        <h3>Iniciar sesion</h3>\n");
       out.write("                    </div>\n");
@@ -104,4 +104,4 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspxFactory.releasePageContext(_jspx_page_context);
     }
   }
-}
+}

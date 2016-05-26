@@ -24,7 +24,7 @@
            
 
                
-                <form id="signup" method="post" action="compruebo_Acceso.jsp">
+                <form id="signup" method="post" action="comprueboAcceso.jsp">
                     <div class="header">
                         <h3>Iniciar sesion</h3>
                     </div>
@@ -48,4 +48,4 @@
             </div>
 
         </body>
-    </html
+    </html>
